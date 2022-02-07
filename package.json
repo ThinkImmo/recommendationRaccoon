@@ -16,7 +16,7 @@
     "test:cov": "jest --coverage && codecov"
   },
   "dependencies": {
-    "ioredis": "4.x",
+    "ioredis": "^4.x",
     "lodash": "4.x",
     "p-all": "^2.1.0",
     "p-map": "^3.0.0",
@@ -52,7 +52,7 @@
     "url": "https://github.com/maruware/recommendationRaccoon/issues"
   },
   "devDependencies": {
-    "@types/ioredis": "^4.14.3",
+    "@types/ioredis": "4.x",
     "@types/jest": "^24.0.25",
     "@types/lodash": "^4.14.149",
     "@types/node": "^12.12.21",
